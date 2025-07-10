@@ -145,7 +145,7 @@ Focus on the human elements and narrative potential, not just technical content.
         }
         
         payload = {
-            'model': 'claude-3-sonnet-20240229',
+            'model': 'claude-3-5-sonnet-20241022',
             'max_tokens': 3000,
             'messages': [
                 {
@@ -214,7 +214,7 @@ Make each approach feel like a genuine creative collaboration opportunity.
         }
         
         payload = {
-            'model': 'claude-3-sonnet-20240229',
+            'model': 'claude-3-5-sonnet-20241022'',
             'max_tokens': 2500,
             'messages': [
                 {
