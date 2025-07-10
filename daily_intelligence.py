@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 
 # Configuration
-RUNPOD_API_KEY = "YOUR_RUNPOD_API_KEY"  # Replace with your actual key
+RUNPOD_API_KEY = os.environ.get('RUNPOD_API_KEY')  # Replace with your actual key
 ENDPOINT_URL = "https://api.runpod.ai/v2/30307wuqqqganz/run"      # Replace with your actual endpoint URL
 
 # All the AI consciousness researchers we're tracking
